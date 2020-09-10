@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/31fc375084.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:600|PT+Sans" rel="stylesheet">
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Gabrielle Jacobs Portfolio | Page Not Found</title>
+
+    <style>
+        body{
+            height: 100vh;
+            display: block;
+            background-image: url("./images/crack.png"), linear-gradient(180deg, #de7f3f 0%, #872214 100%);;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .thankyou{
+            text-align:center;
+        }
+        .checkmark {
+            margin: 0 auto;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: block;
+            stroke-width: 4;
+            stroke: var(--primary);
+            stroke-miterlimit: 10;
+            box-shadow: inset 0px 0px 0px var(--white);
+            animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+            }
+
+        .checkmark__circle {
+            stroke-dasharray: 166;
+            stroke-dashoffset: 166;
+            stroke-width: 2;
+            stroke-miterlimit: 10;
+            stroke: var(--white);
+            fill: none;
+            animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+            }
+
+        .checkmark__check {
+            transform-origin: 50% 50%;
+            stroke-dasharray: 48;
+            stroke-dashoffset: 48;
+            animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+            }
+
+        @keyframes stroke {
+            100% {
+                stroke-dashoffset: 0;
+            }
+            }
+        @keyframes scale {
+            0%, 100% {
+                transform: none;
+            }
+            50% {
+                transform: scale3d(1.1, 1.1, 1);
+            }
+            }
+        @keyframes fill {
+            100% {
+                box-shadow: inset 0px 0px 0px 50px var(--white);
+            }
+        }
+
+        .thanks{
+            font-size: 20rem;
+        }
+        .thanks i{
+            font-size: 17rem;
+        }
+        .about button{
+            margin-top:5rem;
+        }
+        .about button:hover {
+            background-color: var(--black);
+            color: var(--white);
+        }
+        img{
+            width:5%;
+            margin:  0 1rem;
+        }
+        @media only screen and (max-width: 750px) {
+            img{
+                width: 15%;
+            }
+        }
+        @media only screen and (max-width: 415px) {
+            .thanks{
+                font-size: 15rem;
+            }
+            .thanks i{
+                font-size: 13rem;
+            }
+        }
+
+        
+    </style>
+</head>
+<body >
+    <a href="index.html"><img class="logo" src="./images/gj-logo-antiquewhite.png" alt="Logo saying 'GJ'" /></a>
+    <div class="thankyou">
+    <!-- <h1 class="check"><i class="fas fa-check-circle"></i></h1> -->
+    <h1 class="thanks" data-aos="fade-up" data-aos-duration="1200">4<i class="far fa-surprise"></i>4</h1>
+    <h1 data-aos="fade-up" data-aos-duration="1200">OOPS!</h1>
+    <h3 data-aos="fade-up" data-aos-duration="1200">Looks like you're a little lost.</h3>
+    <h3 data-aos="fade-up" data-aos-duration="1200">Let's get you back on track!</h3>
+    <a href="index.html" class="about"><button class="link" data-aos="fade-up" data-aos-duration="1200"> Take me Home</button></a>
+    </div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>AOS.init();</script>
+</body>
+</html>
