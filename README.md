@@ -1,3 +1,24 @@
+<p>This repo houses my official portfolio. It is my first React project and I learned as I went. I learned A LOT. Some functionalities took me awhile, but I eventually figured them out.</p>
+<p>The portfolio site can be seen <a href="https://www.gmjacobsdev.com" rel="nofollow">here</a>.</p>
+<p><strong>Lighthouse Audit: 94.5%</strong></p>
+<ul>
+  <li>SEO: 100%</li>
+  <li>Best Practices: 100%</li>
+  <li>Accessibility: 96%</li>
+  <li>Performance 82%</li>
+</ul>
+<p>Created Using:</p>
+<ul>
+  <li>React</li>
+  <li>npm</li>
+  <li>jQuery</li>
+  <li>Vanilla Javascript</li>
+  <li>CSS3</li>
+</ul>
+
+<details>
+<summary>Create React App npm commands</summary>
+<br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +87,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+</details>

@@ -133,28 +133,39 @@ const services = [
 const portfolio = [
     {
         id: 1,
+        image: "./images/portfolio-images/island-resort-mockup.jpg",
+        // https://i.ibb.co/xSjbz3B/Nobody-is-better-at-motherhood-than-you-2.jpg
+        title: "Resort Rooms Website",
+        description: "Find the perfect room to stay in during your relaxing island resort vacation!",
+        tech: ["React\xa0(Hooks)", "CSS\xa0(Flexbox,\xa0Grid)", "Javascript", "Headless CMS"],
+        github: "https://github.com/GabbyJ/island-resorts-cms",
+        codepen: "",
+        link: "https://island-resort-cms.netlify.app"
+    },
+    {
+        id: 2,
         image: "./images/portfolio-images/blackjack-mockup.jpg",
         // "https://i.ibb.co/GdGbqrm/zora.jpg"
         title: "Blackjack",
         description: "You against the dealer. Get as close to 21 as you can.",
-        tech: ["HTML", "CSS", "Flexbox", "Javascript"],
+        tech: ["HTML", "CSS\xa0(Flexbox)", "Javascript"],
         github: "https://github.com/GabbyJ/Blackjack",
         codepen: "",
         link: "https://gabbyj.github.io/Blackjack/"
     },
     {
-        id: 2,
+        id: 3,
         image: "./images/portfolio-images/office-mockup.jpg",
         // https://i.ibb.co/j6TQw5f/office.jpg
         title: "Random Quote Generator",
         description: "Random quote generator created using characters from The Office and their famous quotes.",
-        tech: ["HTML", "CSS", "Javascript"],
+        tech: ["HTML", "CSS\xa0", "Javascript"],
         github: "https://github.com/GabbyJ/Office-Quote-Generator",
         codepen: "",
         link: "http://htmlpreview.github.io/?https://github.com/GabbyJ/Office-Quote-Generator/blob/master/index.html"
     },
     {
-        id: 3,
+        id: 4,
         image: "./images/portfolio-images/hangman-mockup.jpg",
         // https://i.ibb.co/W3v7t0D/hangman.jpg
         title: "Hangman",
@@ -165,23 +176,12 @@ const portfolio = [
         link: "https://trinket.io/python/1dbf3ceef6?outputOnly=true"
     },
     {
-        id: 4,
-        image: "./images/portfolio-images/simon-mockup.jpg",
-        // https://i.ibb.co/xSjbz3B/Nobody-is-better-at-motherhood-than-you-2.jpg
-        title: "Simon Memory Game",
-        description: "How good is your memeory? Try to beat Simon by remembering the order of the colors.",
-        tech: ["HTML", "CSS", "Jquery"],
-        github: "https://github.com/GabbyJ/Simon-Game",
-        codepen: "",
-        link: "https://gabbyj.github.io/Simon-Game/"
-    },
-    {
         id: 5,
         image: "./images/portfolio-images/nextchapter-mockup.jpg",
         // https://i.ibb.co/PZNRRGd/saxes.jpg
         title: "Travel Website",
-        description: "Search by destinations or activites to find your perfect trip! Organized group or solo trips with easy payment. Book Now!",
-        tech: ["HTML", "CSS", "Wordpress"],
+        description: "Search by destinations or activities to find your perfect trip! Organized group or solo trips with easy payment. Book Now!",
+        tech: ["Wordpress", "HTML", "CSS\xa0"],
         github: "https://github.com/GabbyJ/nextchaptertravel",
         codepen: "",
         link: "https://nextchaptertravel.com"
@@ -192,7 +192,7 @@ const portfolio = [
         // https://i.ibb.co/sHbCGRX/tindog.jpg
         title: "App Landing Page",
         description: "Is your dog lonely? Help them find a friend with TinDog.",
-        tech: ["HTML", "CSS", "Bootstrap"],
+        tech: ["HTML", "CSS\xa0", "Bootstrap"],
         github: "https://github.com/GabbyJ/TinDog",
         codepen: "",
         link: "https://gabbyj.github.io/TinDog/"
