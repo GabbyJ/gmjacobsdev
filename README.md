@@ -1,5 +1,5 @@
 <p>This repo houses my official portfolio. It is my first React project and I learned as I went. I learned A LOT. Some functionalities took me awhile, but I eventually figured them out.</p>
-<p>The portfolio site can be seen <a href="https://www.gmjacobsdev.com" rel="nofollow">here</a>.</p>
+<p>The portfolio site can be seen <a href="https://www.gmjacobsdev.com" rel="nofollow">here</a>, deployed via Netlify.</p>
 <p><strong>Lighthouse Audit: 94.5%</strong></p>
 <ul>
   <li>SEO: 100%</li>
