@@ -592,6 +592,20 @@
     list-style: none;
   }
 
+  /* LEARNING */
+  .learning h2 {
+    color: var(--white);
+    margin: 0rem 2rem 5rem;
+    padding: 0 25%;
+    text-align: center;
+  }
+  .learning a{
+    color: var(--secondary-alt);
+  }
+  .learning a:hover{
+    color: var(--black);
+  }
+
   /* PORTFOLIO */
   .project{
     border-radius: 10px;
@@ -1270,6 +1284,10 @@
       margin-left: -25px;
       margin-top: -25px;
     }
+    /* LEARNING */
+    .learning h2{
+      margin-top: 20rem;
+    }
     /* PORTFOLIO */
     .portfolio h2{
       margin-top: 20rem;
@@ -1529,6 +1547,10 @@
     .tab1-c span {
       display: block;
       
+    }
+    /* LEARNING */
+    .learning h2 {
+      padding: 0%;
     }
     /* PORTFOLIO (none needed for simple squares) */
     .project{

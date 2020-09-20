@@ -9,6 +9,7 @@ import ContactSection from "./Contact/Contact";
 import Footer from "./Footer/Footer";
 import PageBreak from "./PageBreaks/PageBreaks";
 import AboutBreak from "./PageBreaks/AboutBreak";
+import Learning from "./About/WhatImLearning";
 
 
 function App() {
@@ -22,8 +23,9 @@ function App() {
             <PageBreak />
             <AboutTabs />
             <PageBreak />
-            {/* <Services />
-            <PageBreak /> */}
+            <Learning />
+            {/* <Services />*/}
+            <PageBreak /> 
             <Portfolio />
             <PageBreak />
             <ContactSection />
