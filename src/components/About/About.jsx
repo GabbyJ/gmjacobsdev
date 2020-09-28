@@ -17,7 +17,7 @@ function AboutSection(){
         </div>
         </div>
         <div >
-          <a href="./images/Gabrielle_Jacobs_Resume.pdf" target="_blank" rel="noreferrer noopener"><button>View Resume</button></a>
+          <a href="./images/Gabrielle_Jacobs_Resume2.pdf" target="_blank" rel="noreferrer noopener"><button>View Resume</button></a>
           <a href="#portfolio"><button>View Portfolio</button></a>
         </div>
       </section>
