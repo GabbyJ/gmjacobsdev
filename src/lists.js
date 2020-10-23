@@ -1,33 +1,46 @@
 const jobs = [
     {
+        id: 5,
+        date: "10/2020 - 12/2020",
+        position: "React Developer",
+        company: "The Collab Lab",
+        description: [
+            "Working on a team of early-career developers under the guidance of experienced professionals",
+            "Using Agile processes to build a production progressive web app (PWA) using React and Firebase over the course of 8 weeks",
+            "Emphasizes pair programming, peer reviewing code, and participating in weekly demos and retros."
+        ],
+        keywords: ["React", "Firebase", "PWA", "Teamwork", "Collaboration", "Agile", "Problem\xa0Solving", "Time\xa0Management", "Communication"]
+    },
+    {
         id: 1,
         date: "11/2019 - Present",
-        position: "Digital Content Lead",
+        position: "Digital Content and Wordpress Lead",
         company: "Wieck Media",
         description: [
-            "Fixed bugs and added website features to production 80% quicker than average by streamlining the ticketing process",
-            "Improved the design and function of custom pages by adding CSS/ JS customizations",
-            "Achieved a 1-on-1 line of communication for all 6 Wordpress clients to provide assistance and maintenance 50% faster",
-            "Created custom templates from stage to production 60% quicker by both streamlining the ticketing process and providing customization knowledge others lack"
+            "Fix bugs and add website features to production 80% quicker than average by streamlining the ticketing process",
+            "Improve the design and function of custom pages by adding CSS/ JS customizations",
+            "Achieve a 1-on-1 line of communication for all 6 Wordpress clients to provide assistance, updates, and maintenance 50% faster",
+            "Create custom templates from stage to production 60% quicker by both streamlining the ticketing process and providing unique customization knowledge",
+            "Continue Content Management Specialist duties"
         ],
         keywords: ["HTML", "CSS", "Debugging", "Design", "Team\xa0Management", "Wordpress", "Custom\xa0Email\xa0Templates", "Problem\xa0Solving"]
     },
     {
         id: 2,
         date: "6/2017 - 11/2019",
-        position: "Content Management Specialist",
+        position: "Digital Content Management Specialist",
         company: "Wieck Media",
         description: [
             "1 of 4 employees responsible for updating 15+ websites with releases, social media, images, videos, and graphics",
             "Provide internal and external support with an average 30 min turn around for multiple major car, health, and news corporations, an airline, and others",
-            "Informed thousands of people on important corporate news within 30 mins through custom email blasts for 10+ countries/divisions"
+            "Inform thousands of people on important corporate news within 30 mins through custom email blasts for 10+ countries/divisions"
         ],
         keywords: ["HTML", "CSS", "Web\xa0Maintenance", "E-blasts", "Multimedia", "Photoshop", "Teamwork"]
     },
     {
         id: 3,
         date: "6/2015 - 12/2015",
-        position: "Intern",
+        position: "Media Intern",
         company: "Shoutside Media",
         description: [
             "Built and maintained 3 Wordpress sites for lawyers and doctors",
@@ -57,7 +70,7 @@ const education = [
         date: "6/2019 – In Progress...",
         degree: "MERN Fullstack Certificate",
         school: "Udemy",
-        description: "Self pace course focused on React, Node, Express, and MongoDB.",
+        description: "Self paced course focused on React, Node, Express, and MongoDB. Also covers various other languages, frameworks, and libraries",
         keywords: ["HTML", "CSS", "Bootstrap ", "Javascript (ES6)", "jQuery", "Node", "Express", "APIs", "EJS", "SQL", "MongoDB", "Mongoose", "Authentication/Security"],
         
     },
@@ -81,7 +94,7 @@ const education = [
         date: "8/2018 - Present",
         degree: "Responsive Web Design Certification",
         school: "FreeCodeCamp",
-        description: "Self paced path to a Fullstack Developer. Used as supplement material for Udemy course.",
+        description: "Proven knowledge of HTML5, CSS3, Responsiveness, and Accessibility",
         keywords: ["HTML", "CSS", "Accessability", "ES6", "Bootstrap", "jQuery", "Sass", "React"]
     }
     
@@ -134,7 +147,6 @@ const portfolio = [
     {
         id: 1,
         image: "./images/portfolio-images/island-resort-mockup.jpg",
-        // https://i.ibb.co/xSjbz3B/Nobody-is-better-at-motherhood-than-you-2.jpg
         title: "Resort Rooms Website",
         description: "Find the perfect room to stay in during your relaxing island resort vacation!",
         tech: ["React\xa0(Hooks)", "CSS\xa0(Flexbox,\xa0Grid)", "Javascript", "Headless CMS"],
@@ -145,7 +157,6 @@ const portfolio = [
     {
         id: 2,
         image: "./images/portfolio-images/blackjack-mockup.jpg",
-        // "https://i.ibb.co/GdGbqrm/zora.jpg"
         title: "Blackjack",
         description: "You against the dealer. Get as close to 21 as you can.",
         tech: ["HTML", "CSS\xa0(Flexbox)", "Javascript"],
@@ -156,7 +167,6 @@ const portfolio = [
     {
         id: 3,
         image: "./images/portfolio-images/office-mockup.jpg",
-        // https://i.ibb.co/j6TQw5f/office.jpg
         title: "Random Quote Generator",
         description: "Random quote generator created using characters from The Office and their famous quotes.",
         tech: ["HTML", "CSS\xa0", "Javascript"],
@@ -167,7 +177,6 @@ const portfolio = [
     {
         id: 4,
         image: "./images/portfolio-images/hangman-mockup.jpg",
-        // https://i.ibb.co/W3v7t0D/hangman.jpg
         title: "Hangman",
         description: "Name your hangman and try keeping them alive by guessing the word.",
         tech: ["Python"],
@@ -178,7 +187,6 @@ const portfolio = [
     {
         id: 5,
         image: "./images/portfolio-images/nextchapter-mockup.jpg",
-        // https://i.ibb.co/PZNRRGd/saxes.jpg
         title: "Travel Website",
         description: "Search by destinations or activities to find your perfect trip! Organized group or solo trips with easy payment. Book Now!",
         tech: ["Wordpress", "HTML", "CSS\xa0"],
@@ -189,7 +197,6 @@ const portfolio = [
     {
         id: 6,
         image: "./images/portfolio-images/tindog-mockup.jpg",
-        // https://i.ibb.co/sHbCGRX/tindog.jpg
         title: "App Landing Page",
         description: "Is your dog lonely? Help them find a friend with TinDog.",
         tech: ["HTML", "CSS\xa0", "Bootstrap"],
