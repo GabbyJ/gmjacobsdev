@@ -940,9 +940,9 @@
     overflow: hidden;
     display: none;
   }
-  .footnotes ul .inner.show {
-    /*margin: 2rem 5rem;*/
-  }
+  /* .footnotes ul .inner.show {
+    margin: 2rem 5rem;
+  } */
   .footnotes .toggle {
     margin: 0.1rem 0;
   }

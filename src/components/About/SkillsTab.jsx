@@ -1,5 +1,6 @@
 import React from "react";
 import { DiJqueryLogo, DiVisualstudio } from "react-icons/di";
+import { SiAdobecreativecloud } from "react-icons/si";
 
 
 function SkillsTab() {
@@ -29,7 +30,7 @@ function SkillsTab() {
                 </tr>
                 <tr>
                     <td><span><i className="fab fa-github" aria-hidden="true" /></span> Git/Github</td>
-                    <td><span><i className="fab fa-adobe" aria-hidden="true" /></span> Adobe Creative Suite</td>
+                    <td><span><SiAdobecreativecloud className="fab" aria-hidden="true" /></span> Adobe Creative Suite</td>
                 </tr>
                 <tr>
                     <td><span><i className="fas fa-terminal" aria-hidden="true"></i></span> Command Line</td>
