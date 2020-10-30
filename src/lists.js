@@ -187,7 +187,7 @@ const portfolio = [
     {
         id: 5,
         image: "./images/portfolio-images/nextchapter-mockup.jpg",
-        title: "Travel Website",
+        title: "All-Inclusive Travel Booking Website",
         description: "Search by destinations or activities to find your perfect trip! Organized group or solo trips with easy payment. Book Now!",
         tech: ["Wordpress", "HTML", "CSS\xa0"],
         github: "https://github.com/GabbyJ/nextchaptertravel",
