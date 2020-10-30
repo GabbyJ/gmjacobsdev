@@ -147,7 +147,7 @@ const portfolio = [
     {
         id: 1,
         image: "./images/portfolio-images/island-resort-mockup.jpg",
-        title: "Resort Rooms Website",
+        title: "Resort Room Filtering Website",
         description: "Find the perfect room to stay in during your relaxing island resort vacation!",
         tech: ["React\xa0(Hooks)", "CSS\xa0(Flexbox,\xa0Grid)", "Javascript", "Headless CMS"],
         github: "https://github.com/GabbyJ/island-resorts-cms",
@@ -155,10 +155,20 @@ const portfolio = [
         link: "https://island-resort-cms.netlify.app"
     },
     {
+        id: 5,
+        image: "./images/portfolio-images/nextchapter-mockup.jpg",
+        title: "All-Inclusive Travel Booking Website",
+        description: "Search by destinations or activities to find your perfect trip! Organize group or solo trips with easy payment. Book Now!",
+        tech: ["Wordpress", "HTML", "CSS\xa0"],
+        github: "https://github.com/GabbyJ/nextchaptertravel",
+        codepen: "",
+        link: "https://nextchaptertravel.com"
+    },
+    {
         id: 2,
         image: "./images/portfolio-images/blackjack-mockup.jpg",
         title: "Blackjack",
-        description: "You against the dealer. Get as close to 21 as you can.",
+        description: "You against the dealer. Get as close to 21 as you can without going over. Good luck!",
         tech: ["HTML", "CSS\xa0(Flexbox)", "Javascript"],
         github: "https://github.com/GabbyJ/Blackjack",
         codepen: "",
@@ -178,22 +188,13 @@ const portfolio = [
         id: 4,
         image: "./images/portfolio-images/hangman-mockup.jpg",
         title: "Hangman",
-        description: "Name your hangman and try keeping them alive by guessing the word.",
+        description: "Name your hangman and try keeping them alive by guessing the word before it's too late!",
         tech: ["Python"],
         github: "https://github.com/GabbyJ/Python",
         codepen: "",
         link: "https://trinket.io/python/1dbf3ceef6?outputOnly=true"
     },
-    {
-        id: 5,
-        image: "./images/portfolio-images/nextchapter-mockup.jpg",
-        title: "All-Inclusive Travel Booking Website",
-        description: "Search by destinations or activities to find your perfect trip! Organized group or solo trips with easy payment. Book Now!",
-        tech: ["Wordpress", "HTML", "CSS\xa0"],
-        github: "https://github.com/GabbyJ/nextchaptertravel",
-        codepen: "",
-        link: "https://nextchaptertravel.com"
-    },
+    
     {
         id: 6,
         image: "./images/portfolio-images/tindog-mockup.jpg",
