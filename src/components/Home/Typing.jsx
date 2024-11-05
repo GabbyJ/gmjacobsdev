@@ -5,7 +5,7 @@ class TypingEffect extends Component {
         const typedTextSpan = document.querySelector(".typed-text");
         const cursorSpan = document.querySelector(".cursor");
 
-        const textArray = ["Web Developer", "Multimedia Creator", "Traveler"];
+        const textArray = ["Web Producer", "Front End Developer", "Multimedia Creator"];
         const typingDelay = 100;
         const erasingDelay = 75;
         const newTextDelay = 500; // Delay between current and next text
