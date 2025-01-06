@@ -61,6 +61,8 @@ function ExperienceTab(){
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
+        contentStyle={{ background: "#DE7F3F", color: "#FAEBD7" }}
+        contentArrowStyle={{ borderRight: "7px solid  #DE7F3F" }}
         date={jobs[1].date}
         iconStyle={{ background: "#050404", color: "#FAEBD7" }}
         icon={<FaCalendarAlt />}
@@ -79,11 +81,29 @@ function ExperienceTab(){
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="7/2011 - 11/2016"
+        date={jobs[3].date}
         iconStyle={{ background: "#050404", color: "#FAEBD7" }}
         icon={<FaCalendarAlt />}
       >
       {createCard(jobs[3])}
+        
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date={jobs[4].date}
+        iconStyle={{ background: "#050404", color: "#FAEBD7" }}
+        icon={<FaCalendarAlt />}
+      >
+      {createCard(jobs[4])}
+        
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date={jobs[5].date}
+        iconStyle={{ background: "#050404", color: "#FAEBD7" }}
+        icon={<FaCalendarAlt />}
+      >
+      {createCard(jobs[5])}
         
       </VerticalTimelineElement>
 
