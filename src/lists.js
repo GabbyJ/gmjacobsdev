@@ -1,5 +1,45 @@
 const jobs = [
     {
+        id: 8,
+        date: "10/2023 - Present",
+        position: "Web Producer",
+        company: "Neighborly",
+        description: [
+            "Project Manager Lead or Assistant for 4 website migrations from Wordpress or Drupal to Enterprise CMS Crownpeak",
+            "Coordinate with the Brand, SEO, Product Managers, Developers, Graphics, Legal, and other stakeholders as needed",
+            "Ensure timelines are met, provide quality assurance, and documentation",
+            "Continue Digital Operations Specialist responsibilities"
+        ],
+        keywords: ["Enterprise CMS Crownpeak", "HTML", "CSS", "Image editing", "Project Management", "Documentation", "Collaboration", "Time\xa0Management", "Communication"]
+    },
+    {
+        id: 7,
+        date: "06/2021 - Present",
+        position: "Digital Operations Specialist",
+        company: "Neighborly",
+        description: [
+            "Lead point of contact and content maintainer for 5 companies and their 1000+ franchise owners using Drupal, Wordpress, and Enterprise CMS Crownpeak",
+            "Decreased ticket turnaround time by 70%",
+            "Decreased project budget by thousands and multiple hours by building custom pages using HTML, CSS, and Bootstrap",
+            "Coordinate cross-departmentally with the Development, SEO, Graphics, Marketing, and Brand teams using Agile and task management boards",
+            "Work as a team with other Specialists to maintain content for 12 other companies and their franchise owners using Wordpress, Strapi, and Crownpeak"
+        ],
+        keywords: ["Drupal", "Wordpress", "Strapi", "Enterprise CMS Crownpeak", "HTML", "CSS", "Bootstrap", "Image editing", "Project Management", "Collaboration", "Agile", "Problem\xa0Solving", "Time\xa0Management", "Communication"]
+    },
+    {
+        id: 6,
+        date: "12/2020 - 05/2021",
+        position: "Digital Content Manager",
+        company: "Wieck Media",
+        description: [
+            "Supervise 3-7 Content Management Specialists and provide quality assurance for their work",
+            "Decentralize knowledge by providing updates, lessons, documentation, and tutorials for new technologies and processes to employees and other managers",
+            "Build trust, bonds, and support to employees by providing monthly 1-on-1 trainings, recaps, and reviews",
+            "Continue Digital Content and Wordpress Lead responsibilities"
+        ],
+        keywords: ["Leadership", "Documentation", "Management", "Teamwork", "Collaboration", "Communication"]
+    },
+    {
         id: 5,
         date: "10/2020 - 12/2020",
         position: "React Developer",
@@ -13,7 +53,7 @@ const jobs = [
     },
     {
         id: 1,
-        date: "11/2019 - Present",
+        date: "11/2019 - 12/2020",
         position: "Digital Content and Wordpress Lead",
         company: "Wieck Media",
         description: [
@@ -35,7 +75,7 @@ const jobs = [
             "Provide internal and external support with an average 30 min turn around for multiple major car, health, and news corporations, an airline, and others",
             "Inform thousands of people on important corporate news within 30 mins through custom email blasts for 10+ countries/divisions"
         ],
-        keywords: ["HTML", "CSS", "Web\xa0Maintenance", "E-blasts", "Multimedia", "Photoshop", "Teamwork"]
+        keywords: ["HTML", "CSS", "Web\xa0Maintenance", "Email-blasts", "Multimedia", "Photoshop", "Teamwork"]
     },
     {
         id: 3,
@@ -91,12 +131,21 @@ const education = [
     },
     {
         id: 4,
-        date: "8/2018 - Present",
+        date: "Completed 2019",
         degree: "Responsive Web Design Certification",
         school: "FreeCodeCamp",
         description: "Proven knowledge of HTML5, CSS3, Responsiveness, and Accessibility",
         keywords: ["HTML", "CSS", "Accessability", "ES6", "Bootstrap", "jQuery", "Sass", "React"]
+    },
+    {
+        id: 5,
+        date: "Completed 2022",
+        degree: "SEO",
+        school: "HubSpot",
+        description: "Proven knowldge of techincal SEO, keyword research, link building, and optimization",
+        keywords: ["Technical SEO", "Keyword Research", "Link Building", "SERP", "Backlinks", "Optimization"]
     }
+    
     
 ];
 
