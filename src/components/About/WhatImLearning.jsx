@@ -6,8 +6,8 @@ function Learning(){
         <h2 data-aos="fade-up" data-aos-duration="700">What I'm Learning Now</h2>
         <div className="summary">
         <div data-aos="fade-up" data-aos-duration="700">
-          <p>Right now I'm working on APIs and more React while always building on my Javascript knowledge.</p>
-          <p>I have been accepted into <a href="https://the-collab-lab.codes" target="_blank" rel="noopener noreferrer">The Collab Lab</a> October cohort. With this, multiple groups of four early-career developers, work together to build a "smart" progressive web application using React and Firebase for eight weeks using pair programming and the Agile methodology.</p>
+          <p>I'm currently expanding my knowledge in project management by working on the Google Project Management Certification to enhance my skills in planning, organizing, and delivering successful projects. I will eventually work towards the CAPM and PMP.</p>
+          <p>Additionally, I’ll soon dive into SQL to strengthen my technical toolkit and improve my data management and analysis capabilities.</p>
           
         </div>
         </div>
