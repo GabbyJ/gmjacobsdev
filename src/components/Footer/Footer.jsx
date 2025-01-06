@@ -23,7 +23,7 @@ function Footer() {
                     </div>
                     <hr />
                     <p className="made">Made with <i className="fas fa-heart" aria-label="love"></i> using&nbsp;<i className="fab fa-react" aria-label="React" title="React"></i></p>
-                    <p className="copyright">© 2024 Gabrielle Jacobs</p>
+                    <p className="copyright">© 2025 Gabrielle Jacobs</p>
                 </section>
             </footer>
         </div>
