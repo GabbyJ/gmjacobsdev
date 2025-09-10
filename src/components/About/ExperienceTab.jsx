@@ -61,8 +61,6 @@ function ExperienceTab(){
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: "#DE7F3F", color: "#FAEBD7" }}
-        contentArrowStyle={{ borderRight: "7px solid  #DE7F3F" }}
         date={jobs[1].date}
         iconStyle={{ background: "#050404", color: "#FAEBD7" }}
         icon={<FaCalendarAlt />}
