@@ -25,7 +25,7 @@ function SkillsTab() {
                     <td><span><i className="fab fa-node" aria-hidden="true" /></span> Node</td>
                 </tr>
                 <tr>
-                    <td><span><i className="fab fa-python" aria-hidden="true" /></span> Python</td>
+                    <td><span><i className="fab fa-drupal" aria-hidden="true" /></span> Drupal</td>
                     <td><span><i className="fab fa-wordpress" aria-hidden="true" /></span> WordPress</td>
                 </tr>
                 <tr>
