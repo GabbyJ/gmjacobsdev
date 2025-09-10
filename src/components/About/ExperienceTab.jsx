@@ -124,6 +124,15 @@ function ExperienceTab(){
       {createCard(jobs[7])}
         
       </VerticalTimelineElement>
+                  <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date={jobs[8].date}
+        iconStyle={{ background: "#050404", color: "#FAEBD7" }}
+        icon={<FaCalendarAlt />}
+      >
+      {createCard(jobs[8])}
+        
+      </VerticalTimelineElement>
 
       <p>&nbsp;</p>
     </VerticalTimeline>
