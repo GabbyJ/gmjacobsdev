@@ -1,7 +1,21 @@
 const jobs = [
     {
+        id: 9,
+        date: "03/2025 - Present",
+        position: "Senior Web Producer",
+        company: "Neighborly",
+        description: [
+            "Project Manager Lead or Assistant for 3 additional website migrations from Wordpress or Drupal to Enterprise CMS Crownpeak",
+            "Coordinate with the Brand, SEO, Product Managers, Developers, Graphics, Legal, and other stakeholders as needed",
+            "Provide documentation for new features and processes",
+            "Work with the Conversion Rate Optimization team to improve leads by A/B testing homepages and forms",
+            "Continue Web Producer responsibilities"
+        ],
+        keywords: ["Project Management", "Documentation", "Collaboration", "Communication"]
+    },
+    {
         id: 8,
-        date: "10/2023 - Present",
+        date: "10/2023 - 03/2025",
         position: "Web Producer",
         company: "Neighborly",
         description: [
@@ -14,7 +28,7 @@ const jobs = [
     },
     {
         id: 7,
-        date: "06/2021 - Present",
+        date: "06/2021 - 10/2023",
         position: "Digital Operations Specialist",
         company: "Neighborly",
         description: [
