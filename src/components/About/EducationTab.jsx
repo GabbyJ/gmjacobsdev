@@ -52,6 +52,16 @@ function EducationTab() {
       />
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
+        date={education[5].date}
+        iconStyle={{ background: "#050404", color: "#FAEBD7" }}
+        icon={<FaCalendarAlt />}
+      >
+      {/* LinkedIn PM */}
+      {createCard(education[5])}
+       
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
         date={education[4].date}
         iconStyle={{ background: "#050404", color: "#FAEBD7" }}
         icon={<FaCalendarAlt />}
@@ -60,7 +70,18 @@ function EducationTab() {
       {createCard(education[4])}
        
       </VerticalTimelineElement>
+      
       <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date={education[3].date}
+        iconStyle={{ background: "#050404", color: "#FAEBD7" }}
+        icon={<FaCalendarAlt />}
+      >
+      {/* FreeCodeCamp */}
+      {createCard(education[3])}
+       
+      </VerticalTimelineElement>
+          <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: "#DE7F3F", color: "#FAEBD7" }}
         contentArrowStyle={{ borderRight: "7px solid  #DE7F3F" }}
@@ -71,16 +92,6 @@ function EducationTab() {
         {/* Udemy */}
         {createCard(education[0])}
         
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--work"
-        date={education[3].date}
-        iconStyle={{ background: "#050404", color: "#FAEBD7" }}
-        icon={<FaCalendarAlt />}
-      >
-      {/* FreeCodeCamp */}
-      {createCard(education[3])}
-       
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
