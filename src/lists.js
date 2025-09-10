@@ -158,6 +158,14 @@ const education = [
         school: "HubSpot",
         description: "Proven knowldge of techincal SEO, keyword research, link building, and optimization",
         keywords: ["Technical SEO", "Keyword Research", "Link Building", "SERP", "Backlinks", "Optimization"]
+    },
+    {
+        id: 6,
+        date: "Completed 2025",
+        degree: "Project Management Introductions",
+        school: "LinkedIn",
+        description: "Proven knowledge of project management fundamentals, including scheduling, task management, and resource allocation",
+        keywords: ["Project Management", "Agile"]
     }
     
     
