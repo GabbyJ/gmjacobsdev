@@ -156,7 +156,7 @@ const education = [
         date: "Completed 2022",
         degree: "SEO",
         school: "HubSpot",
-        description: "Proven knowldge of techincal SEO, keyword research, link building, and optimization",
+        description: "Proven knowledge of techincal SEO, keyword research, link building, and optimization",
         keywords: ["Technical SEO", "Keyword Research", "Link Building", "SERP", "Backlinks", "Optimization"]
     },
     {
